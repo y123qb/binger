@@ -1,10 +1,9 @@
-package proxy;
+package proxy.cglib;
 
-public class User implements IUser {
+public class User {
 
 	private String name;
 	private int age;
-	@Override
 	public void eat() {
 		System.out.println("我"+name+"就知道吃，尽管我今年已经"+age);
 	}
